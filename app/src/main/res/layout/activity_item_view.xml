@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewItemCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Item Code:" />
+
+    <TextView
+        android:id="@+id/textViewItemName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewItemCode"
+        android:text="Item Name:" />
+
+    <TextView
+        android:id="@+id/textViewItemqty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewItemName"
+        android:text="Quantity:" />
+
+    <TextView
+        android:id="@+id/textViewUprice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewItemqty"
+        android:text="Unit Price:" />
+
+    <TextView
+        android:id="@+id/textViewSupname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewUprice"
+        android:text="Supplier Name:" />
+
+    <TextView
+        android:id="@+id/textViewSupphone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewSupname"
+        android:text="Supplier Phone:" />
+
+</RelativeLayout>
